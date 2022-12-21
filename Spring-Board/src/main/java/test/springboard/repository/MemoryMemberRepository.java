@@ -1,5 +1,6 @@
 package test.springboard.repository;
 
+import org.springframework.stereotype.Repository;
 import test.springboard.domain.Member;
 
 
