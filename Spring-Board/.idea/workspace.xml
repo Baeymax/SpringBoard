@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Spring-Board.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/domain/member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/springboard/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/springboard/service/MemberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/src/main/java/test/SpringBoard/SpringBoardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-Board/src/test/java/test/SpringBoard/SpringBoardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/SpringBoardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/SpringBoardApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +88,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -118,26 +114,105 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="SpringBoardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.springboard.SpringBoardApplication" />
-      <module name="spring-board.main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.springboard.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MemberServiceTest">
+    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-board.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.springboard.*" />
+          <option name="PATTERN" value="test.springboard.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.springboard.service" />
+      <option name="MAIN_CLASS_NAME" value="test.springboard.service.MemberServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.중복_회원_예외" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.springboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.springboard.service" />
+      <option name="MAIN_CLASS_NAME" value="test.springboard.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="중복_회원_예외" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.findMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.springboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.springboard.service" />
+      <option name="MAIN_CLASS_NAME" value="test.springboard.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="findMembers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.join" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.springboard.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.springboard.service" />
+      <option name="MAIN_CLASS_NAME" value="test.springboard.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="join" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryMemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-board.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.springboard.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.springboard.repository" />
+      <option name="MAIN_CLASS_NAME" value="test.springboard.repository.MemoryMemberRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringBoardApplication" />
+        <item itemvalue="JUnit.MemberServiceTest" />
+        <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
+        <item itemvalue="JUnit.MemberServiceTest.join" />
+        <item itemvalue="JUnit.MemberServiceTest.findMembers" />
+        <item itemvalue="JUnit.MemoryMemberRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +237,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
