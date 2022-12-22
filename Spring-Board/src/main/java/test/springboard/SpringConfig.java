@@ -2,20 +2,20 @@ package test.springboard;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import test.springboard.repository.MemberRepository;
-import test.springboard.repository.MemoryMemberRepository;
-import test.springboard.service.MemberService;
+import test.springboard.repository.MemoryUserRepository;
+import test.springboard.repository.UserRepository;
+import test.springboard.service.UserService;
 
 @Configuration
 public class SpringConfig {
 
     @Bean
-    public MemberService memberService() {
-        return new MemberService(memberRepository());
+    public UserService userService() {
+        return new UserService(userRepository());
     }
 
     @Bean
-    public MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
+    UserRepository userRepository() {
+        return new MemoryUserRepository();
     }
 }

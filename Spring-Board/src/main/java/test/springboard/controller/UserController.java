@@ -25,6 +25,7 @@ public class UserController {
     public String create(UserForm form){
         User user = new User();
         user.setId(form.getId());
+        user.setPw(form.getPw());
 
         userService.join(user);
 
