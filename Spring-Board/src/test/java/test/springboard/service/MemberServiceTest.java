@@ -31,7 +31,7 @@ class MemberServiceTest {
         member.setName("spring");
 
         //when
-        Long saveId = memberService.join(member);
+        Long saveId = memberService.join1(member);
 
         //then
         Member findMember = memberService.findOne(saveId).get();
@@ -48,8 +48,8 @@ class MemberServiceTest {
         member2.setName("spring");
 
         //when
-        memberService.join(member1);
-        IllegalStateException e = assertThrows(IllegalStateException.class, () -> memberService.join(member2));
+        memberService.join1(member1);
+        IllegalStateException e = assertThrows(IllegalStateException.class, () -> memberService.join1(member2));
 
         assertThat(e.getMessage()).isEqualTo("Aleady Exist");
 
