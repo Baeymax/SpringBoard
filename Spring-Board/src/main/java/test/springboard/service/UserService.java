@@ -16,20 +16,17 @@ public class UserService {
     public Long join(User user){
         validateDuplicateUser(user);
         userRepository.save(user);
-        return user.getN();
+        return user.getIndex();
     }
-
     private void validateDuplicateUser(User user){
         userRepository.findById(user.getId())
                 .ifPresent(m ->{
                     throw new IllegalStateException("이미 등록된 아이디입니다.");
                 });
     }
-
     public List<User> findUsers() {
         return userRepository.findAll();
     }
-
     public Optional<User> findOne(Long userN){
         return userRepository.findByN(userN);
     }

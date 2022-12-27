@@ -1,31 +1,32 @@
 package test.springboard.domain;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class User {
-    private Long n;
+    private Long index;
     private String id;
     private String pw;
 
-    public Long getN() {
-        return n;
-    }
+    private String name;
 
-    public void setN(Long n) {
-        this.n = n;
-    }
+    private String email;
 
-    public String getId() {
-        return id;
-    }
+    SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
+    Date now = new Date();
+    String registerdate = sdf1.format(now);
+    public Long getIndex() { return index; }
+    public void setIndex(Long index) { this.index = index;}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
 
-    public String getPw() {
-        return pw;
-    }
+    public String getPw() { return pw; }
+    public void setPw(String pw) { this.pw = pw; }
 
-    public void setPw(String pw) {
-        this.pw = pw;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
 }
