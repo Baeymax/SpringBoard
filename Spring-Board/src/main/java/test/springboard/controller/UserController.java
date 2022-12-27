@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping("/users/new")
     public String createForm() {
-        return "users/createUserForm";
+        return "users/join";
     }
 
     @PostMapping("/users/new")

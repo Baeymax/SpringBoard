@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+}
+
+.header {
+    background-color: Gray;
+    height: 10%
+}
+
+.content {
+    height:80%;
+}
+
+.footer {
+    background-color: yellow;
+    height: 10%
+}
