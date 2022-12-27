@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/default_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/Join.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/join.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/middle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/main_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Join.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/createUserForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/Login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
