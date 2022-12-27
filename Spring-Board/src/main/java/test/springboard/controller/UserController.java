@@ -16,16 +16,18 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/users/new")
+    @GetMapping("/content/join")
     public String createUser() {
-        return "users/join";
+        return "content/join";
     }
 
-    @PostMapping("/users/new")
+    @PostMapping("/content/join")
     public String create(UserForm form){
         User user = new User();
         user.setId(form.getId());
-        user.setPw(form.getPw());
+        user.setPassword(form.getPassword());
+        user.setName(form.getName());
+        user.setEmail(form.getEmail());
 
         userService.join(user);
 

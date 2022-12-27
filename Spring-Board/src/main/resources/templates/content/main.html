@@ -6,15 +6,15 @@
 
 <th:block layout:fragment="head">
     <title>Spring Board</title>
-    <link th:href="@{css/header.css}" rel="stylesheet"/>
-    <link th:href="@{css/board.css}" rel="stylesheet"/>
-    <link th:href="@{css/footer.css}" rel="stylesheet"/>
+    <link th:href="@{css/main/header.css}" rel="stylesheet"/>
+    <link th:href="@{css/main/board.css}" rel="stylesheet"/>
+    <link th:href="@{css/main/footer.css}" rel="stylesheet"/>
 
 </th:block>
 <body>
-    <th:block layout:fragment="header" th:include="@{/fragments/header}"></th:block>
-    <th:block layout:fragment="board" th:include="@{/fragments/middle}"></th:block>
-    <th:block layout:fragment="footer" th:include="@{/fragments/footer}"></th:block>
+    <th:block layout:fragment="header" th:include="@{/fragments/main/header}"></th:block>
+    <th:block layout:fragment="board" th:include="@{/fragments/main/middle}"></th:block>
+    <th:block layout:fragment="footer" th:include="@{/fragments/main/footer}"></th:block>
 </body>
 </html>
 
