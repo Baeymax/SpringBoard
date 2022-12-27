@@ -1,4 +1,4 @@
-package test.SpringBoard;
+package test.springboard;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
