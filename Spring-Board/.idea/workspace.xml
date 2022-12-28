@@ -5,33 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main/board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/userUI/join.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/userUI/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Join.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/join_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/joinmiddle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/loginmiddle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/login_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/board.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/join.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/middle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/Join.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/join_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/join_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/main_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/main_layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,11 +126,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\static\css" />
       <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\templates\content" />
       <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\templates\fragments\userUI" />
       <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\static\css\userUI" />
       <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\static\css\main" />
-      <recent name="D:\workspaces\SpringBoard\spring-board\src\main\resources\templates\fragments\main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="test.springboard.service" />
