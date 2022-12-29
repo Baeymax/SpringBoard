@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/header.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <h2 class="logo">SpringBoard</h2>
+        <input type="checkbox" id="chk">
+        <lable for="chk" class="show-menu-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </lable>
+
+        <ul class="menu">
+            <a href="redirect:/">홈으로</a>
+            <a href="content/login">로그인</a>
+            <a href="content/join">회원가입</a>
+            <lable for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </lable>
+        </ul>
+    </div>
+
+    </body>
+</html>

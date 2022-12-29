@@ -16,7 +16,7 @@ public class UserService {
     public Long join(User user){
         validateDuplicateUser(user);
         userRepository.save(user);
-        return user.getIndex();
+        return user.getUserno();
     }
     private void validateDuplicateUser(User user){
         userRepository.findById(user.getId())

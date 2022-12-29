@@ -11,8 +11,8 @@ public class MemoryUserRepository implements UserRepository{
 
     @Override
     public User save(User user) {
-        user.setIndex(++sequence);
-        store.put(user.getIndex(), user);
+        user.setUserno(++sequence);
+        store.put(user.getUserno(), user);
         return user;
     }
 
