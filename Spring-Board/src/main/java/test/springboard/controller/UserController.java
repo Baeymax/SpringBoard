@@ -34,4 +34,13 @@ public class UserController {
         return "redirect:/";
     }
 
+    @GetMapping("/content/login")
+    public String loginUser() {
+        return "content/login";
+    }
+
+    @PostMapping("/content/login")
+    public String login(UserLogin login){
+        return "redirect:/";
+    }
 }

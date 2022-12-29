@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/main/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/userUI/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/userUI/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/userUI/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/join_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/join_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/login_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/login_layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +89,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>

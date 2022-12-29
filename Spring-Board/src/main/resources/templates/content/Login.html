@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/login_layout}">
+
+<th:block layout:fragment="head">
+    <title>Spring Board</title>
+    <link th:href="@{css/userUI/login.css}" rel="stylesheet"/>
+
+</th:block>
 <body>
-
-<div class="login-container">
-    <form action="/users/login" method="post">
-        <div class="form-group">
-            <label for="id">아이디</label>
-            <input type="text" id="id" name="id" placeholder="아이디를 입력하세요">
-        </div>
-        <div class="form-group">
-            <label for="pw">비밀번호</label>
-            <input type="text" id="pw" name="pw" placeholder="비밀번호를 입력하세요">
-        </div>
-        <button type="login">로그인</button>
-
-    </form>
-
-</div>
-
+    <th:block layout:fragment="loginmiddle" th:include="@{/fragments/userUI/loginmiddle}"></th:block>
 </body>
 </html>
