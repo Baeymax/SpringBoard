@@ -1,10 +1,9 @@
 package test.springboard.domain;
 
-
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class User {
+
     private Long userno;
     private String id;
     private String password;
@@ -13,9 +12,8 @@ public class User {
 
     private String email;
 
-    SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
-    Date now = new Date();
-    String registerdate = sdf1.format(now);
+    private Date registerdate;
+
     public Long getUserno() { return userno; }
     public void setUserno(Long userno) { this.userno = userno;}
 
@@ -30,4 +28,8 @@ public class User {
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
+
+    public Date getRegisterdate() { return registerdate; }
+
+    public void setRegisterdate(Date registerdate) { this.registerdate = registerdate; }
 }
