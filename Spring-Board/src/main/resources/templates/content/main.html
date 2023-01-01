@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layout/main_layout}">
-
-<th:block layout:fragment="head">
-    <title>Spring Board</title>
-    <link th:href="@{css/header.css}" rel="stylesheet"/>
-    <link th:href="@{css/main/board.css}" rel="stylesheet"/>
-    <link th:href="@{css/footer.css}" rel="stylesheet"/>
-
-</th:block>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="import" href="fragments/header.html">
+    <link rel="import" href="fragments/middle.html">
+    <link rel="import" href="fragments/footer.html">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
 <body>
-    <th:block layout:fragment="header" th:include="@{/fragments/header}"></th:block>
-    <th:block layout:fragment="board" th:include="@{/fragments/main/middle}"></th:block>
-    <th:block layout:fragment="footer" th:include="@{/fragments/footer}"></th:block>
+
 </body>
 </html>
 

@@ -11,5 +11,6 @@ public interface UserRepository {
 
     Optional<User> findById(String id);
 
+    User login(User user);
 
 }

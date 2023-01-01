@@ -7,7 +7,6 @@ public class User {
     private Long userno;
     private String id;
     private String password;
-
     private String nickname;
 
     private String email;

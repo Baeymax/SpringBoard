@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layout/login_layout}">
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
 
-<th:block layout:fragment="head">
-    <title>Spring Board</title>
-    <link th:href="@{css/userUI/login.css}" rel="stylesheet"/>
+        <form action="/content/login" method="post" class="box">
+            <h1>로그인</h1>
+            <div class="text">
+                <input type="text" name="" placeholder="아이디">
+                <input tupe="password" name="" placeholder="비밀번호">
+                <input type="submit" href="#" name="" value="로그인">
+            </div>
+        </form>
 
-</th:block>
-<body>
-    <th:block layout:fragment="loginmiddle" th:include="@{/fragments/userUI/loginmiddle}"></th:block>
-</body>
+    </body>
 </html>

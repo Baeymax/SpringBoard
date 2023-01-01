@@ -71,6 +71,18 @@ public class MysqlUserRepository implements UserRepository{
         }
     }
 
+    @Override
+    public User login(User user) {
+        String sql = "select * from User where id = ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        return null;
+    }
+
+
+
     private  Connection getConnection() {
         return DataSourceUtils.getConnection(dataSource);
     }
