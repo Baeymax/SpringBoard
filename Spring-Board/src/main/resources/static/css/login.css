@@ -6,22 +6,21 @@
 }
 
 body{
-    background: url('../../img/HeadImage.jpg') no-repeat center;
-    background-size: cover;
+    background-color: #000;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-form{
+.login-container{
     width: calc(100% - 20px);
     max-width: 500px;
     background-color: #fff;
     padding: 50px 40px;
 }
 
-.login-form h1{
+.login-container h1{
     text-align: center;
     margin: 48px 0;
     color: #111;
@@ -72,16 +71,7 @@ body{
     left: 10px;
     top: -16px;
 }
-.fa-check{
-    position: absolute;
-    color: #fff;
-    font-size: 14px;
-    width: 24px;
-    text-align: center;
-    user-select: none;
-    pointer-events: none;
-    opacity: 0;
-}
+
 
 .btn{
     display: block;
@@ -101,7 +91,7 @@ body{
     opacity: .85;
 }
 
-.login-form a{
+.login-container a{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -113,7 +103,7 @@ body{
     transition: .2s linear;
 }
 
-.login-form a:hover{
+.login-container a:hover{
     color: #111;
 }
 

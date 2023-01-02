@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/mainmiddle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/mainmiddle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/join.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/join.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/Join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Join.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/middle.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
