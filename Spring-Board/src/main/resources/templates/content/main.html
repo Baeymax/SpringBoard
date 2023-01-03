@@ -1,20 +1,150 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layout/main_layout}">
+<html lang="en">
 
-<th:block layout:fragment="head">
-    <title>Spring Board</title>
-    <link th:href="@{css/main/header.css}" rel="stylesheet"/>
-    <link th:href="@{css/main/board.css}" rel="stylesheet"/>
-    <link th:href="@{css/main/footer.css}" rel="stylesheet"/>
-
-</th:block>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mainmiddle.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
 <body>
-    <th:block layout:fragment="header" th:include="@{/fragments/main/header}"></th:block>
-    <th:block layout:fragment="board" th:include="@{/fragments/main/middle}"></th:block>
-    <th:block layout:fragment="footer" th:include="@{/fragments/main/footer}"></th:block>
+
+    <div class="header">
+        <h2 class="logo">SpringBoard</h2>
+        <input type="checkbox" id="chk">
+        <lable for="chk" class="show-menu-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </lable>
+
+        <ul class="menu">
+            <a href="../">홈으로</a>
+            <a href="content/login">로그인</a>
+            <a href="content/join">회원가입</a>
+            <lable for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </lable>
+        </ul>
+    </div>
+
+    <div class="middle">
+        <main class = "main-container">
+            <div id = "Board">
+                <div class="board-container">
+                    <div class="board-wrap">
+                        <div class="board-box">
+                            <div><a href="gameboard.html" >게임</a>
+                                <ul>
+                                    <li class="board">
+                                        <div class="board-info title"><a>title</a></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="board-box">
+                            <div><h3>방송</h3>
+                                <ul>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="board-box">
+                            <div><h3>일상</h3>
+                                <ul>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="board-box">
+                            <div><h3>기타</h3>
+                                <ul>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                    <li>
+                                        <div class="board-info title"><p>title</p></div>
+                                        <div class="board-info date"><p>date</p></div>
+                                        <div class="board-info writer"><p>writer</p></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer-container"></footer>
+
 </body>
 </html>
-
