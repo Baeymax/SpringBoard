@@ -13,18 +13,20 @@
         <h1>로그인</h1>
         <!-- "login_id-wrap" -->
         <div class="textb">
-            <input type="text" required>
+            <label for="id"></label>
+            <input type="text" id="id" name="id" required>
             <div class="placeholder">아이디</div>
         </div>
         <!-- "login_password-wrap" -->
         <div class="textb">
-            <input type="password" required>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required>
             <div class="placeholder">비밀번호</div>
             <div class="show-password fas fa-eye-slash"></div>
         </div>
 
         <button class="btn fas fa-arrow-right" disabled ></button>
-        <a href="redirect:/">홈으로</a>
+        <a href="../">홈으로</a>
         <a href="/content/join">회원가입</a>
 
         <script>

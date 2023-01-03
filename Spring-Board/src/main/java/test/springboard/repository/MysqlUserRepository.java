@@ -2,6 +2,7 @@ package test.springboard.repository;
 
 import org.springframework.jdbc.datasource.DataSourceUtils;
 import test.springboard.domain.User;
+import test.springboard.domain.UserCheck;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.*;
@@ -15,10 +16,10 @@ public class MysqlUserRepository implements UserRepository{
 
     @Override
     public User save(User user) {
-        String sql = "insert into User(id, password, nickname, email) values(?,?,?,?)";
-        Connection conn = null;
-        PreparedStatement pstmt = null;
-        ResultSet rs = null;
+        String sql = "insert into User(id, password, nickname, email) values(?,?,?,?)"; //sql 구문 - 각 컬럼에 value값을 넣어줌
+        Connection conn = null; //
+        PreparedStatement pstmt = null; // PreparedStatement 클래스 사용시 sql 쿼리에 매개변수를 부여하여 실행할 수 있음 || statement 클래스의 기능 향상, 코드 안전성 높음, 가능성 높음
+        ResultSet rs = null; // ResultSet 객체 - Statement 객체로 SELECT 문을 사용하여 얻어온 레코드값들을 테이블의 형태로 갖는 객체
 
         try{
             conn = getConnection();
@@ -70,14 +71,35 @@ public class MysqlUserRepository implements UserRepository{
             close(conn, pstmt, rs);
         }
     }
-
     @Override
-    public User login(User user) {
-        String sql = "select * from User where id = ?";
+    public User login(UserCheck usercheck) {
         Connection conn = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
 
+        String ID = usercheck.getId();
+        String PW = usercheck.getPassword();
+        String sql = "select * from User where id = '"+ID+"'";
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.executeUpdate();
+            rs = pstmt.executeQuery();
+            if(rs.next()){
+                if(ID.equals(rs.getString(2))==true && PW.equals(rs.getString(3))==true){
+                    throw new SQLException("로그인되었습니다.");
+                }else if(PW.equals(rs.getString(3))==false){
+                    throw new SQLException("비밀번호가 일치 하지 않습니다.");
+                }else {
+                    throw new SQLException("존재하지 않는 아이디입니다.");
+                }
+            }
+        }catch (Exception e) {
+            throw new IllegalStateException(e);
+        }finally {
+            close(conn, pstmt, rs);
+        }
         return null;
     }
 

@@ -7,3 +7,6 @@ login UI, join UI - https://youtu.be/ydkpox94Yc0
 
 DB - https://healthdevelop.tistory.com/entry/spring21?category=953458
 https://code1018.tistory.com/71
+
+Board UI
+https://youtu.be/HvrOnjX__jE

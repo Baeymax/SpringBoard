@@ -1,6 +1,7 @@
 package test.springboard.service;
 
 import test.springboard.domain.User;
+import test.springboard.domain.UserCheck;
 import test.springboard.repository.UserRepository;
 
 import java.util.List;
@@ -25,8 +26,8 @@ public class UserService {
                 });
     }
 
-    public Long login(User user){
-        userRepository.login(user);
-        return user.getUserno();
+    public Long login(UserCheck usercheck){
+        userRepository.login(usercheck);
+        return usercheck.getUserno();
     }
 }

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import test.springboard.domain.User;
+import test.springboard.domain.UserCheck;
 import test.springboard.service.UserService;
 
 @Controller
@@ -39,6 +40,12 @@ public class UserController {
 
     @PostMapping("/content/login")
     public String login(UserLogin login){
-        return "redirect:/";
+        UserCheck usercheck = new UserCheck();
+        usercheck.setId(login.getId());
+        usercheck.setPassword(login.getPassword());
+
+        userService.login(usercheck);
+
+        return "cotent/loginpage";
     }
 }

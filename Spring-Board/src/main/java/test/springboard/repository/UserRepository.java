@@ -1,6 +1,7 @@
 package test.springboard.repository;
 
 import test.springboard.domain.User;
+import test.springboard.domain.UserCheck;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,6 +12,6 @@ public interface UserRepository {
 
     Optional<User> findById(String id);
 
-    User login(User user);
+    User login(UserCheck usercheck);
 
 }
