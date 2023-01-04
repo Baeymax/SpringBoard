@@ -31,9 +31,9 @@ public class MysqlUserRepository implements UserRepository{
             pstmt.setString(3, user.getNickname());
             pstmt.setString(4, user.getEmail());
 
-            pstmt.executeUpdate();
+            pstmt.executeUpdate(); //insert, update, delete등 리턴 값이 필요 없는 쿼리문일 때 사용
             rs = pstmt.getGeneratedKeys();
-            if(rs.next()){
+            if(rs.next()){ //rs.next()는 boolean을 리턴하는데 다음 레코드가 존재하면 true를 반환
                 user.setUserno(rs.getLong(1));
             }else {
                 throw new SQLException("아이디 조회 실패");
@@ -56,7 +56,7 @@ public class MysqlUserRepository implements UserRepository{
             conn = getConnection();
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, id);
-            rs = pstmt.executeQuery();
+            rs = pstmt.executeQuery(); // select등 리턴 값이 필요한 쿼리문일 때 사용
             if(rs.next()){
                 User user = new User();
                 user.setId(rs.getString("id"));
