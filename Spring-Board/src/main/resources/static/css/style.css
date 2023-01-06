@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Border 바깥쪽을 차지, 주변 요소와 거리를 두기 위한 영역 */
+    padding: 0; /* Content와 Border 사이의 여백을 나타내는 영역, Content 영역이 배경색이나 배경 이미지를 가질 때, 이 Padding 영역까지도 영향을 미침*/
 }
 
 ul, li{

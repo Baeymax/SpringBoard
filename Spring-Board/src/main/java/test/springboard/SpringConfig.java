@@ -9,7 +9,8 @@ import test.springboard.service.UserService;
 import javax.sql.DataSource;
 
 
-@Configuration
+// annotation - 클래스와 메서드에 추가하여 다양한 기능을 부여하는 역할
+@Configuration // 설정파일을 만들기 위한 애노테이션 or Bean을 등록하기 위한 annotation
 public class SpringConfig {
 
     private final DataSource dataSource;
@@ -17,7 +18,7 @@ public class SpringConfig {
     public SpringConfig(DataSource dataSource){
         this.dataSource = dataSource;
     }
-    @Bean
+    @Bean // 개발자가 컨트롤이 불가능한 외부 라이브러리들을 Bean으로 등록하고 싶은 경우에 사용, 메소드 또는 annotation 단위에 붙일 수 있음.
     public UserService userService() {
         return new UserService(userRepository());
     }
