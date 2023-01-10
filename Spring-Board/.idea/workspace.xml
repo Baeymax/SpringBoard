@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlemedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/controller/BoardCreateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/domain/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MysqlBoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/springboard/service/BoardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +88,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

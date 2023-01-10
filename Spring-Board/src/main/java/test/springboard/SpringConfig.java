@@ -5,6 +5,9 @@ import org.springframework.context.annotation.Configuration;
 import test.springboard.repository.MysqlUserRepository;
 import test.springboard.repository.UserRepository;
 import test.springboard.service.UserService;
+import test.springboard.repository.MysqlBoardRepository;
+import test.springboard.repository.BoardRepository;
+import test.springboard.service.BoardService;
 
 import javax.sql.DataSource;
 
@@ -22,9 +25,11 @@ public class SpringConfig {
     public UserService userService() {
         return new UserService(userRepository());
     }
+    @Bean
+    UserRepository userRepository() { return new MysqlUserRepository(dataSource); }
 
     @Bean
-    UserRepository userRepository() {
-        return new MysqlUserRepository(dataSource);
-    }
+    public BoardService boardService() { return new BoardService(boardRepository());}
+    @Bean
+    BoardRepository boardRepository() { return new MysqlBoardRepository(dataSource);}
 }
