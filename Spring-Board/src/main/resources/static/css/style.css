@@ -32,6 +32,7 @@ a{
 
 .bt_wrap{
     margin-top: 30px;
+    text-align: center;
     font-size: 0;
 }
 
@@ -43,20 +44,24 @@ a{
     border: 1px solid #000;
     border-radius: 2px;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .bt_wrap a:first-child {
     margin-left: 0;
-}
-.bt_wrap a.on{
+
+
+.bt_wrap a.on {
     background: #000;
     color: #fff;
+    text-align: center;
 }
 
 .board_list {
     width: 100%;
     border-top: 2px solid #000;
 }
+
 .board_list > div {
     border-bottom: 1px solid #ddd;
     font-size: 0;
@@ -65,6 +70,7 @@ a{
 .board_list > div.top {
     border-bottom: 1px solid #999;
 }
+
 .board_list > div:last-child {
     border-bottom: 1px solid #000;
 }
@@ -75,27 +81,32 @@ a{
     text-align: center;
     font-size:1.4rem
 }
+
 .board_list > div.top > div{
     font-weight: 600;
 }
 
 .board_list .num {
-    width: 60%;
+    width: 10%;
 }
+
 .board_list .title {
     width: 60%;
     text-align: left;
 }
-.board_list .top.title{
-    text-align:center;
+
+.board_list .top .title {
+    text-align: center;
 }
 
 .board_list .writer {
     width: 10%;
 }
+
 .board_list .date {
     width: 10%;
 }
+
 .board_list .count {
     width: 10%;
 }
@@ -103,6 +114,7 @@ a{
 .board_page {
     margin-top: 30px;
     text-align: center;
+    font-size: 0;
 }
 
 .board_page a {
@@ -114,25 +126,30 @@ a{
     border: 1px solid #ddd;
     border-left: 0;
     line-height: 100%;
+    text-align: center;
 }
 
 .board_page a.bt {
-    padding-top: 9px;
+    padding-top: 10px;
     font-size: 1.2rem;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 .board_page a.num {
     padding-top: 9px;
     font-size: 1.4rem;
+    text-align: center;
 }
+
 .board_page a.num.on {
     border-color: #000;
     background: #000;
     color: #fff;
+    text-align: center;
 }
 
-.board_page a:first_child {
+.board_page a:first-child {
     border-left: 1px solid #ddd;
 }
 /*board_view*/
@@ -158,9 +175,11 @@ a{
     display: inline-block;
     padding: 0 20px;
 }
-.board_view .info dl:first_child{
+
+.board_view .info dl:first-child{
     padding-left: 0;
 }
+
 .board_view .info dl::before {
     content: "";
     position: absolute;
@@ -172,7 +191,7 @@ a{
     background: #ddd;
 }
 
-.board_view .info dl:first_child::before {
+.board_view .info dl:first-child::before {
     display: none;
 }
 .board_view .info dl dt
@@ -242,8 +261,7 @@ a{
 }
 
 .board_write .title input [type="text"],
-.board_write .info input [type="text"],
-.board_write .info input [type="password"] {
+.board_write .info input [type="text"] {
     padding: 10px;
     box-sizing: border-box;
 }
