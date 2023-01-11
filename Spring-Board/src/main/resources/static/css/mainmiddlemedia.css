@@ -1,0 +1,17 @@
+@media (max-width: 1900px) {
+
+    .board-info {
+        float: left;
+        text-align: center;
+        border-bottom:solid 1px gray; margin-bottom: 10px;position: center;
+    }
+
+    .title{width:250px; }
+    .date{width:50px; }
+    .writer{width:100px; }
+}
+@media (max-width: 1880px) {
+    .etc {
+        display:none;
+    }
+}
