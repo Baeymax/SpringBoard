@@ -107,9 +107,6 @@ public class MysqlUserRepository implements UserRepository{
         }
         return null;
     }
-
-
-
     private  Connection getConnection() {
         return DataSourceUtils.getConnection(dataSource);
     }
