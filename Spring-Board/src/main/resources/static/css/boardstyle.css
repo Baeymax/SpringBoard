@@ -1,0 +1,47 @@
+*{
+    margin: 0; /* Border 바깥쪽을 차지, 주변 요소와 거리를 두기 위한 영역 */
+    padding: 0; /* Content와 Border 사이의 여백을 나타내는 영역, Content 영역이 배경색이나 배경 이미지를 가질 때, 이 Padding 영역까지도 영향을 미침*/
+}
+
+ul, li{
+   list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.bt_wrap a:first-child {
+    margin-left: 0;
+
+
+.bt_wrap a.on {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*board_view*/
+
+/*board_write*/
+

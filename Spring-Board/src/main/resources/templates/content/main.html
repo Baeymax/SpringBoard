@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>SpringBoard</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/mainmiddle.css">
+    <link rel="stylesheet" href="css/mainmiddlecommon.css">
+    <link rel="stylesheet" href="css/mainmiddlestyle.css">
+    <link rel="stylesheet" href="css/mainmiddlemedia.css">
     <link rel="stylesheet" href="css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -27,32 +29,43 @@
                 <div class="board-container">
                     <div class="board-wrap">
                         <div class="board-box">
-                            <div class="game"><a href="content/list" >게임</a>
-                                <ul>
-                                    <li class="board">
-                                        <div class="board-info title"><a>title</a></div>
-                                        <div class="board-info date"><p>date</p></div>
-                                        <div class="board-info writer"><p>writer</p></div>
-                                    </li>
-                                    <li>
-                                        <div class="board-info title"><p>title</p></div>
-                                        <div class="board-info date"><p>date</p></div>
-                                        <div class="board-info writer"><p>writer</p></div>
-                                    </li>
-                                    <li>
-                                        <div class="board-info title"><p>title</p></div>
-                                        <div class="board-info date"><p>date</p></div>
-                                        <div class="board-info writer"><p>writer</p></div>
-                                    </li>
-                                    <li>
-                                        <div class="board-info title"><p>title</p></div>
-                                        <div class="board-info date"><p>date</p></div>
-                                        <div class="board-info writer"><p>writer</p></div>
-                                    </li>
-                                </ul>
+                            <div id="Game">
+
+                                <div class="board-title">
+                                    <a class="boardname">게임</a>
+                                    <a class="more" href="content/list">더보기</a>
+                                </div>
+                                <div class="board-content">
+                                    <div class="top">
+                                        <div class="no"><a>no</a></div>
+                                        <div class="title"><a href="#">title</a></div>
+                                        <div class="date"><a>date</a></div>
+                                        <div class="writer"><a>writer</a></div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="no"><a>3</a></div>
+                                        <div class="title"><a href="#">title</a></div>
+                                        <div class="date"><a>date</a></div>
+                                        <div class="writer"><a>writer</a></div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="no"><a>2</a></div>
+                                        <div class="title"><a href="#">title</a></div>
+                                        <div class="date"><a>date</a></div>
+                                        <div class="writer"><a>writer</a></div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="no"><a>1</a></div>
+                                        <div class="title"><a href="#">title</a></div>
+                                        <div class="date"><a>date</a></div>
+                                        <div class="writer"><a>writer</a></div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                        <div class="board-box">
+
+                        <div class="board-box none">
                             <div class="broadcast"><h3>방송</h3>
                                 <ul>
                                     <li>
@@ -78,7 +91,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="board-box">
+
+                        <div class="board-box none">
                             <div class="life"><h3>일상</h3>
                                 <ul>
                                     <li>
@@ -104,7 +118,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="board-box">
+
+                        <div class="board-box none">
                             <div class="etc"><h3>기타</h3>
                                 <ul>
                                     <li>
@@ -130,6 +145,7 @@
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

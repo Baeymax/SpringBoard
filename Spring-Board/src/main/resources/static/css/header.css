@@ -29,8 +29,9 @@
     color:#34495e;
 }
 @media (max-width: 600px) {
-    .header {
-        min-width: 600px;
+    .menu {
+        display : none;
     }
+
 }
 
