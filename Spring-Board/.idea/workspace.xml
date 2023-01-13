@@ -5,30 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="305fdf69-b618-4367-b7b3-f4e2a9932874" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardedit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardeditmedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardlist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardlistmedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardmedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardviewmedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardwrite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardwritemedia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlecommon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MysqlUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/springboard/repository/MysqlUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/HeadImage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/boardlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardlist.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/join.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/join.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlecommon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlemedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlemedia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/mainmiddlestyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/content/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/content/write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/boardview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/boardview.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
