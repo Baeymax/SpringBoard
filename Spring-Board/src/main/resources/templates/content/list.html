@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0";>
-    <title>공지사항</title>
+    <title>GameBoard</title>
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/boardstyle.css">
     <link rel="stylesheet" href="../../css/boardlist.css">
     <link rel="stylesheet" href="../../css/boardlistmedia.css">
 </head>
 <body>
+    <div class="header">
+        <h2 class="logo"><a href="/">SpringBoard</a></h2>
+
+        <ul class="menu">
+            <a href="../content/login">로그인</a>
+            <a href="../content/join">회원가입</a>
+        </ul>
+    </div>
+
     <form action="/content/list" method="get" class="list-container">
         <div class="board_wrap" >
             <div class="board_title">
